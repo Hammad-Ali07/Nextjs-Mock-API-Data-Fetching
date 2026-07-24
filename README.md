@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Data Fetching from Mock API
 
-## Getting Started
+> A Next.js application demonstrating how to fetch, manage, and display data from a mock API using modern React patterns.
 
-First, run the development server:
+## ✨ Overview
+
+This project demonstrates the fundamentals of fetching external API data in a Next.js application.
+
+It focuses on retrieving data from a mock API and rendering it dynamically in a responsive user interface.
+
+## 🚀 Features
+
+* Fetch data from a mock API
+* Display API data dynamically
+* Handle asynchronous data fetching
+* Built with Next.js and React
+* TypeScript support
+* Responsive user interface
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js
+* **Language:** TypeScript
+* **Frontend:** React
+* **Styling:** Tailwind CSS
+* **API:** Mock API
+
+## ⚙️ Getting Started
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the application inside the `src/app` directory. The page will automatically update as you make changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```text
+.
+├── public/
+├── src/
+│   └── app/
+├── package.json
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Purpose
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was created to practice working with APIs and understand how external data can be fetched and displayed in a Next.js application.
